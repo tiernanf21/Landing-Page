@@ -127,7 +127,8 @@ img {
 .section-3{
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 50px;
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 span {
     font-size: 18px;
@@ -171,5 +172,28 @@ span {
     flex-direction: column;
     margin-left: 15px;
     color: #E5E7EB;
+}
+
+.button-2 {
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 125px;
+    padding: 10px;
+    color: white;
+    height: 40px;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-cr {
+    color: white;
 }
 
