@@ -74,7 +74,7 @@ img {
     height: 200px;
 }
 
-button {
+.button-1 {
     background-color: #3882f6;
     color: white;
     border: 1px #3882f6;
@@ -124,6 +124,11 @@ button {
     text-align: center;
 }
 
+.section-3{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 50px;
+}
 span {
     font-size: 18px;
     color: grey;
@@ -136,4 +141,35 @@ span {
 }
 .thor {
     text-align: right;
+    font-weight: bold;
+
 }
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+
+.section-4 {
+    margin: 50px;
+}
+
+.blue-prompt{
+    display: flex;
+    background-color: #3882f6;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    padding:  25px;
+    width: 50%;
+    margin-left: 500px;
+    justify-content: space-between;
+}
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    color: #E5E7EB;
+}
+
