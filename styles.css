@@ -26,7 +26,7 @@ body {
 
 li.header-links {
     font-size: 18px;
-    color: #E5E7EB;
+    color: grey;
 }
 
 .container-1 {
@@ -83,4 +83,57 @@ button {
     width: 125px;
     font-weight: bold;
     margin-top: 5px;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.blue-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.blue-square {
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+.section-2 {
+    margin: 30px;
+    text-align: center;
+}
+
+span {
+    font-size: 18px;
+    color: grey;
+    padding-top: 5px;
+}
+.quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thor {
+    text-align: right;
 }
